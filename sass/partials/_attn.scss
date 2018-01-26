@@ -1,0 +1,246 @@
+/*Styles for Attn Experiments*/
+
+/*Copy-Block + Image 1*/
+
+/*********************************************************************************************************************************************************************************************/
+
+.attn-container-img {
+	position: relative;
+    width: 98%;
+    height: 300px;
+    padding: 5%;
+    margin-left: 15px;
+/*
+    margin-right: 5px;
+*/
+    margin-bottom: 15px;
+    background-color: black;
+    border-radius: 5px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.79);
+}
+
+.attn-container-img-1 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Olympic-Recovery-Center-successful-testimonial-Mikaela.png);
+
+}
+
+
+
+.attn-container-img-2 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/A/nutritious-meal-A.jpg);
+}
+
+
+.attn-container-img-3 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Freedom-5-B.jpg);
+}
+
+
+
+.attn-container-img-4 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Olympic-Recovery-Center-Woman-Smiling-4-B.jpg);
+}
+
+
+.attn-container-img-5 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Freedom-2-B.png);
+}
+
+.attn-container-img-6 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Group-Therapy-3-B.png);
+}
+
+
+.attn-container-img-7 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Health-Consequences-B.png);
+}
+
+
+
+.attn-container-img-8 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Group-Therapy-3-B.png);
+}
+
+
+.attn-container-img-9 {
+	@extend .attn-container-img;
+    background-image: url(/IMG/Stock/B/Admissions-2-B.jpg);
+}
+
+
+.attn-container-img-1:hover .attn-image,
+.attn-container-img-2:hover .attn-image, 
+.attn-container-img-3:hover .attn-image, 
+.attn-container-img-4:hover .attn-image, 
+.attn-container-img-5:hover .attn-image, 
+.attn-container-img-6:hover .attn-image, 
+.attn-container-img-7:hover .attn-image, 
+.attn-container-img-8:hover .attn-image, 
+.attn-container-img-9:hover .attn-image {
+  opacity: 0.3;
+  
+}
+
+.attn-container-img-1:hover,
+.attn-container-img-2:hover,
+.attn-container-img-3:hover,
+.attn-container-img-4:hover,
+.attn-container-img-5:hover,
+.attn-container-img-6:hover,
+.attn-container-img-7:hover,
+.attn-container-img-8:hover,
+.attn-container-img-9:hover{
+    background-color: rgba(12, 28, 44, 0.97);
+    transition: 0.8s;
+}
+
+
+.attn-container-img-1:hover #midLink-1,
+.attn-container-img-2:hover #midLink-2,
+.attn-container-img-3:hover #midLink-3,
+.attn-container-img-4:hover #midLink-4,
+.attn-container-img-5:hover #midLink-5,
+.attn-container-img-6:hover #midLink-6,
+.attn-container-img-7:hover #midLink-7,
+.attn-container-img-8:hover #midLink-8,
+.attn-container-img-9:hover #midLink-9, {/*When user hovers over */
+    opacity: 1;
+  
+}
+
+
+#midLink-1,
+#midLink-2,
+#midLink-3,
+#midLink-4,
+#midLink-5,
+#midLink-6,
+#midLink-7,
+#midLink-8,
+#midLink-9 { /*This is what shows up when the user hovers over the image/link. */
+    transition: .5s ease;
+    opacity: 0; /*This opacity means that the object is invisible. If you change this, the link appears.*/
+    position: absolute;
+    margin-top: 5px;
+    height: 90%;
+    width: 90%;
+    top: 50%;
+    bottom: 30%;
+    left: 50%;
+    padding: 2%;
+    background-color: rgba(12, 28, 44, 0.66);
+    border: none;
+    border-radius: 3px;
+      transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+
+
+#link-info-,
+#link-info-2,
+#link-info-3,
+#link-info-4,
+#link-info-5,
+#link-info-6,
+#link-info-7,
+#link-info-8,
+#link-info-9 {
+    width: 100%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.89);
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
+
+
+
+
+.midLinkText {
+    color: white;
+    font-size: 16px;
+    margin-top: 30%;
+    font-family: 'Quattrocento', serif;
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+
+.info-text-gray {
+    color: $deadGray;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 7%;
+    margin-top: -5px;
+    margin-bottom:0px;
+}
+
+.info-text-modal {
+    color: $secondaryBlue;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+
+#blurb1,
+#blrub2,
+#blrub3,
+#blrub4,
+#blrub5,
+#blrub6,
+#blrub7,
+#blrub8,
+#blrub9 {
+	width: 100%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.89);
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
+
+.toggle {
+    display: none;
+}
+
+
+
+/*Respons*/
+
+@media only screen and (max-width : 765px) {    
+    
+    .attn-container-img-1,
+    .attn-container-img-2,
+    .attn-container-img-3,
+    .attn-container-img-4,
+    .attn-container-img-5,
+    .attn-container-img-6,
+    .attn-container-img-7,
+    .attn-container-img-8,
+    .attn-container-img-9, {
+        padding-left: 1%;
+        
+    }
+
+}

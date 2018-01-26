@@ -1,0 +1,71 @@
+/*Detox Styles*/
+
+.form-contact {
+    
+}
+
+#CTA2Box-contact {
+    height: 450px;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 100px;
+    background-image:  url(/IMG/Stock/A/Session-Hands-2-A-BG.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+} 
+
+.no-link {
+    height: 75px;
+}
+
+.header-copy {
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    /*margin-right: 33%;
+    margin-left: 10%;*/
+    text-align: center;
+    float: right;
+}
+
+.ha-top {
+    height: 70px;
+}
+
+
+@media only screen and (max-width : 765px) {    
+    
+    .mobile-title {
+        margin-left: 10%;
+        margin-top: 55%;
+        color: white;
+        font-family: 'Quattrocento', serif;
+        
+    }
+    
+    
+    .form-contact {
+        padding-top: 28%;
+    }
+    
+    #CTA2Box-contact {
+    height: 450px;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    padding-right: 15%;
+    margin-top: 100px;
+    background-image:  url(/IMG/Stock/A/Session-Hands-2-A-BG.jpg);    
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    display: block;
+}
+
+}

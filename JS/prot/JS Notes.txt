@@ -1,0 +1,18 @@
+My script:
+
+$('p.linx-info').hide(); /*<--All the information that's hidden*/
+        $('button.midLink').on('click', function(){
+            $('p.linx-info').show();
+        });
+
+
+
+
+Old Script from StackOverflow:
+
+
+        $('p.linx-info').hide(); /*<--All the information that's hidden*/
+        $('h2.linx').click(function(){ /*<--Object that's clicked, plus "The Function" (probably an img)*/
+           $(this).next('p.linx-info').fadeIn([1000]);/* <--"The Function", which fades in information*/
+         
+        });

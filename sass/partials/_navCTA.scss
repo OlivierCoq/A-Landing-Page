@@ -1,0 +1,373 @@
+/*Header CSS + Alternate Mobile Menu*/
+
+body {
+    margin: 0px;
+}
+
+
+.logoBox {
+    height: 60px;
+    float: left;
+    margin: 0;
+    z-index: 999;
+}
+
+.row-gray {
+	background-image: url(/IMG/bg-Gray-2-untouched.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 50px !important;
+}
+
+.row-color {
+    background-color: #244e79; /*Prior row color: #244e79 (Important!)*/
+	height: 55px !important;
+}
+
+.row-color-2 {
+    background-color: white;
+}
+
+
+.CTA { /*Phone*/
+    height: 50px;
+    width: 200px;
+    margin-right: 12px; 
+    background-color: #D3AB23; /*Alternative colors: #9c8b54; #244e79; #D3AB23; #111d29; */
+    float: right;
+    transition: 0.4s;
+}
+
+.CTA:hover { /*Phone*/
+    background-color: #617283;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    float: right;
+    margin-right: 12px;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+
+.CTA-2 { /*Email*/
+    background-color: #6c8fb2; 
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    margin-right: 0;
+    float: right;
+}
+
+.CTA-2:hover {/*Email*/
+    background-color: #617283;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    margin-right: 0;
+    float: right;
+    transition: 0.4s;
+    transform: scale(1.1);    
+}
+
+.CTA-3 { /*Chat*/
+    background-color: #9cb6d0;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    float: right;
+    margin-right: 0;
+}
+
+.CTA-3:hover {/*Chat*/
+    background-color: #617283;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    float: right;
+    margin-right: 0;
+    transition: 0.4s;
+    transform: scale(1.1);        
+}
+
+.CTA-link {
+    color: white;
+    text-decoration: none;
+}
+
+.CTA-link:hover {
+    color: #244e79;
+    text-decoration: none;
+}
+.CTA-link:active {
+    color: #244e79;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.CTA-link:visited {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+}
+
+.CTA-top-label {
+    margin-top: 18px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+        
+}
+
+.CTA-top-label:visted,
+.CTA-top-label:hover {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #244e79;
+    text-align: center;
+    text-decoration: none;
+        
+}
+
+.CTA2-link {
+    color: white;
+}
+
+.CTA2-link:hover {
+    color: white;
+}
+
+.tan {
+    background-color: #e8e7e7; 
+}
+
+a {
+    color: #D3AB23;
+}
+
+a:hover {
+    color: #D3AB23;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+a:active {
+    color: #b5931e;
+    text-decoration: none;
+    text-decoration-line: none; 
+}
+a:visited {
+    color: #b5931e;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+
+/*SubHeader*/
+
+
+
+
+
+
+/*Responsive*/
+
+/*XS Devices*/
+@media only screen and (max-width :576px) { 
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-fluid,
+    .row {
+        padding: 0px !important; 
+    }
+    
+    .navbar,
+    .navbar-header {
+        margin: 0px !important;
+    }
+
+}
+
+@media only screen and (max-width : 768px) {    
+    
+    body {
+        margin: 0;
+    }
+    
+    .container-fluid,
+    .row {
+        padding: 0px !important; 
+    }
+    .navbar-header {
+        margin: 0px !important;
+    }
+    
+    
+    .cta2mobile {
+        margin-top: 30%;
+    }
+    
+    .mob-nav {
+    background-color: $darkNavy;
+}
+    
+    
+
+    .mob-block {
+        top: 0;
+        position: fixed;
+        height: 150px;
+
+        background-color: $darkNavy;
+        width: 100%;
+        z-index: 999;
+        
+    }
+    
+    
+    .mobile-nav-brand {
+        height: 90px;
+        margin-top: 10px;
+        margin-left: 40%;
+        background-color: transparent; 
+        border-bottom: none;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.26); */
+        
+    }
+    
+    
+    .mob-header-wrapper {
+        width: 100%;
+    }
+    
+    .mob-header {
+        margin-left: 0;
+        background-color: #0c1c2c;
+        width: 100%;
+        
+    }
+    
+    .mob-menu {
+        width: 100%;
+        position: relative;
+        z-index: 998;
+    }
+    
+    .CTA {
+        float:none;
+        margin-top: 90%;
+        bottom: 0;
+        position:fixed;
+        width: 100%;
+        right: 0;
+        
+        
+    }
+    
+    .CTA-1 {
+        float:left;
+        margin-top: 90%;
+        bottom: 0;
+        position:fixed;
+        width: 100%;
+        right: 0; 
+        
+    }
+    
+    
+    /*Form*/
+    
+    .stickForm {
+        height: 0px;
+        background-color: white;
+        margin-top: 100%;
+        margin-bottom: 108%;
+    }
+    
+    #stickFormSection {
+        background-color: white;
+        margin-top: 18%;
+
+    }
+    
+    /*Mobile Only Calls*/
+    
+    .mCTA-text {
+        color: white;
+        text-align: center;
+        margin: inherit;
+        margin-top: 10px;
+    }
+    
+    
+    .mCTA-label {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 6px;
+        color: white;
+    }
+    
+    .mCTA-1 { /*Live Chat*/
+       
+        height: 80px;
+        background-color: #9cb6d0;
+        bottom: 0;
+        width: 33%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    } 
+    
+    
+    .mCTA-2 { /*Email*/
+        height: 80px;
+        background-color:  #6c8fb2; 
+        bottom: 0;
+        width: 50%;
+        /*border-top-left-radius: 10px;*/
+    }    
+    
+    .mCTA-3 { /*Phone*/
+        height: 80px;
+        background-color:  #D3AB23;
+        bottom: 0;
+        width: 50%;
+        /*border-top-right-radius: 10px;*/
+        
+    }
+    
+    .mCTA-3-thank {
+        height: 80px;
+        background-color:  #D3AB23;
+        bottom: 0;
+        float: right;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .btmCTA {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(108, 143, 178, 0.31); /*Original: #6c8fb2; */
+        z-index: 900;
+   
+    }
+    
+    /*Footer*/
+
+    .footer {
+        position: relative;
+        margin-bottom: 30%;
+        height: 170px;
+    }
+
+
+}/*All within xs device sizes*/

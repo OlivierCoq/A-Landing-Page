@@ -1,0 +1,203 @@
+/*Images*/
+
+.copy-img {
+    width: 95%;
+    border: 2px;
+    border-radius: 5px;
+    margin-top: 8%;
+    margin-left: 5%;
+    box-shadow: 0px 0px 10px white;
+}
+
+.copy-img-program {
+    width: 95%;
+    border: 2px;
+    border-radius: 3px;    
+    margin-top: 22%;
+}
+
+    /*Copy + Img*/
+.copy-block-lightBlue {
+    width: 50%;
+    height: 350px;
+    background-color: $lightSnowGray;
+	padding: 2%;
+}
+
+.copy-block-gray {
+    width: 50%;
+    height: 350px;
+    background-color: #fafafa;
+	padding: 2%;
+} 
+
+.copy-block-gray-pattern {
+	background-image: url(/IMG/bg-Gray-2-untouched.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	padding: 2%;
+}
+
+.copy-block-blue {
+    width: 50%;
+    height: 350px;
+    background-color: #294f79;
+	padding: 2%;
+}
+
+.copy-block-darkNavy {
+    width: 50%;
+    height: 350px;
+    background-color: #101c27;
+	padding: 2%;
+}
+
+.img-extend {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.img-block {
+    background-image: url(/IMG/Stock/A/royal-life-centers-Session-Hands-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-2 {
+    background-image: url(/IMG/Stock/A/Detox-From-Heroin-Helping-Hands-2-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-3 {
+    background-image: url(/IMG/Stock/A/Royal-Life-Centers-More-Than-Detox.jpg);
+	@extend .img-extend;
+}
+
+.img-block-4 {
+    background-image: url(/IMG/Stock/A/Admissions-1-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-5 {
+    background-image: url(/IMG/Stock/A/Stress-2-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-6 {
+    background-image: url(/IMG/Stock/A/royal-life-centers-concerned-parent-A.jpg);
+	@extend .img-extend;
+	z-index: 1;
+}
+
+.img-block-7 {
+    background-image: url(/IMG/Stock/A/Loneliness-2-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-8 {
+    background-image: url(/IMG/Stock/A/Health-Consequences-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-9 {
+    background-image: url(/IMG/Stock/A/MomAndDaughter-2-A.jpg);
+	@extend .img-extend;;
+}
+
+.img-block-10 {
+    background-image: url(/IMG/Stock/B/Session-Hands-Modal.png);
+	@extend .img-extend;
+}
+
+.img-block-11 {
+    background-image: url(/IMG/Stock/A/Loneliness-2-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-12 {
+    background-image: url(/IMG/Stock/A/Stress-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-13 {
+    background-image: url(/IMG/Stock/A/Happy-Couple-1-A.jpg);
+	@extend .img-extend;
+}
+
+.img-block-14 {
+    background-image: url(/IMG/Stock/A/Happy-Couple-2-A.jpg);
+	@extend .img-extend;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width : 990px) {
+	.img-block,
+	.img-block-2,
+	.img-block-3,
+	.img-block-4,
+	.img-block-5,
+	.img-block-6,
+	.img-block-7,
+	.img-block-8,
+	.img-block-9,
+	.img-block-10,
+	.img-block-11,
+	.img-block-12,
+	.img-block-13,
+	.img-block-14 {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+
+/*Panel*/
+
+.split {
+	margin-top: 10%;
+}
+
+.block-panel-right {
+	z-index: 2;
+	background-color: white; /*#294f78;*/ /*#e3f1ff;*/
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45); 
+    padding: 5%;
+	margin-top: -15%;
+	margin-left: -15%;
+	width: 80%;
+	overflow: hidden;
+	margin-bottom: 5%;
+
+}
+
+.block-panel-left {
+	z-index: 2;
+	background-color: white; /*#294f78;*/ /*#e3f1ff;*/
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45); 
+    padding: 5%;
+	margin-top: -15%;
+	margin-left: -45%;
+	width: 80%;
+	overflow: hidden;
+	margin-bottom: 5%;
+
+}
+
+
+@media only screen and (max-width : 990px) {
+	.block-panel-right {
+		margin-top: 5%;
+		margin-left: 10%;
+	}
+	
+	.block-panel-left {
+		margin-top: 5%;
+		margin-left: 7%;
+	}
+
+}	

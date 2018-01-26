@@ -1,0 +1,42 @@
+/*Insurance CSS*/
+
+.ins {
+    max-height: 50px;
+    padding-bottom: 0px;
+}
+
+.block-img {
+    max-width: 900px;
+}
+
+.block-img-b {
+    max-width: 450px;
+    /*float: right;*/
+ /*   margin-right: 10%;
+    margin-left: 10%;*/
+}
+
+.ins-section-block {
+    padding-left: 13%;
+    padding-right: 15%;
+}
+
+.ins-section-block-b {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+@media only screen and (max-width : 350px) {
+
+    .ins {
+        max-height: 50px;
+        max-width: 10px;
+        padding-bottom: 0px;
+    }
+
+    .ins-block {
+    widows: 135px;
+    padding-left: 12%;
+    }
+
+}

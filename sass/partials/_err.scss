@@ -1,0 +1,22 @@
+/*404 and 403 */
+
+.err-list {
+    text-align: left;
+    margin-left: 35%;
+    list-style: none;
+}
+
+.err-block {
+    margin-top: 20%; 
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width : 680px) {
+    .err-block {
+        margin-top: 50%;
+    }
+    
+    .err-list {
+        margin-left: 5%;
+    }
+}

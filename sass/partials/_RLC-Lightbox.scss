@@ -1,0 +1,66 @@
+/*CSS for Lightbox section*/
+
+
+.lb-box {/*(Image Container)*/
+  /*  width: 50%;
+    line-height: 0;
+    */
+}
+
+
+.lb-boxOver {/*(after)*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    display: none;
+    
+}
+
+.lb-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left 0;
+    padding: 0;
+    
+}
+
+.lb-section {
+    padding: 0px;
+    margin: 0;
+}
+
+.col-md-6 {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.col-md-4 {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/*Overlay Effect*/
+
+.img-cont .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    transition: 0.9s;
+}
+
+.img-cont:hover .after {
+    display: block;
+    background-color: rgba(36, 78, 121, 0.31);
+    transition: 0.9s;
+}
+

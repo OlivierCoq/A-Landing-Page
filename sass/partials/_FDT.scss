@@ -1,0 +1,185 @@
+#CTA2Box-FDT {
+    height: 550px;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 100px;
+    background-image:  url(/IMG/FDT/Royal-Life-Centers-Free-12-Panel-Drug-Testing-Kit.jpg);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+} 
+
+.no-link {
+    height: 75px;
+}
+
+.header-copy {
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    /*margin-right: 33%;
+    margin-left: 10%;*/
+    text-align: center;
+    float: right;
+}
+
+.ha-top {
+    height: 70px;
+}
+
+
+.fdt-form-box {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45); 
+    padding-top: 3%;
+    padding-left: 18%;
+    padding-right: 14%;
+    padding-bottom: 5%;
+    margin: none;
+}
+
+
+.bg-img-mom {
+    background-image: url(/IMG/FDT/Royal-Life-Centers-Free-Drug-Testing-Kit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2%;
+}
+
+.bg-img-mom-mobile {
+    background-image: url(/IMG/FDT/mobile-color.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2%;
+}
+
+.fdt-button {
+    margin-left: 21%; 
+    background-color:#294f79; 
+    color: white;
+    outline: none;
+    border: none;
+    padding: 2%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+}
+
+.fdt-button:hover,
+.fdt-button:focus,
+.fdt-button:active,
+.fdt-button:visited {
+    background-color:#142230;
+    color: white;
+    outline: none;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.fdt-button-modal {
+    margin-left: 9%;
+    background-color: #294f79;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.fdt-button-modal:focus,
+.fdt-button-modal:active,
+.fdt-button-modal:visited,
+.fdt-button-modal:hover {
+    background-color:#142230;
+    color: white;
+    outline: none;
+/*    transition: 0.4s;
+    transform: scale(1.1);*/
+}
+
+.info-block-clear-FDT {
+    background-color: rgba(255, 255, 255, 0.58);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45); 
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+
+}
+
+.white-fdt {
+    font-family: $head-font;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 5%;
+    
+}
+
+.info-text-white-fdt {
+    font-family: $head-font;
+    color: white;
+    font-size: 17px;
+    text-shadow: 14px 4px 19px black;
+}
+
+
+
+.modalButton-FDT {
+    background-color: $secondaryBlue;
+    color: white;
+    padding: 4%;
+    margin-bottom: 5%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+    width: 100%;
+}
+
+.modalButton-FDT:hover,
+.modalButton-FDT:focus,
+.modalButton-FDT:visited {
+    background-color: $darkNavy;
+    color: white;
+    outline: none;
+}
+
+.info-list-FDT {
+    text-align: left;
+    list-style: none;
+}
+
+	/*Responsive*/
+@media only screen and (max-width : 765px) {    
+    
+    .mobile-title {
+        margin-left: 10%;
+        margin-top: 55%;
+        color: white;
+        font-family: 'Quattrocento', serif;
+        
+    }
+    
+    
+    .form-contact {
+        padding-top: 28%;
+    }
+    
+    #CTA2Box-FDT {
+    	height: 450px;
+    	background-image:  url(/IMG/FDT/Royal-Life-Centers-Free-12-Panel-Drug-Testing-Kit-Mobile.jpg);    
+    	background-size: cover;
+    	width: 100%;
+    	display: block;
+	}
+
+}

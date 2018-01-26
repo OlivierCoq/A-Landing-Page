@@ -1,0 +1,1821 @@
+/*Font Families*/
+/*@import "partials/normalize";*/
+/*Taken care of by Bourbon*/
+/* line 1, ../sass/partials/_FDT.scss */
+#CTA2Box-FDT {
+  height: 550px;
+  padding-top: 8%;
+  padding-bottom: 12%;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-top: 100px;
+  background-image: url(/IMG/FDT/Royal-Life-Centers-Free-12-Panel-Drug-Testing-Kit.jpg);
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* line 16, ../sass/partials/_FDT.scss */
+.no-link {
+  height: 75px;
+}
+
+/* line 20, ../sass/partials/_FDT.scss */
+.header-copy {
+  color: white;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  /*margin-right: 33%;
+  margin-left: 10%;*/
+  text-align: center;
+  float: right;
+}
+
+/* line 31, ../sass/partials/_FDT.scss */
+.ha-top {
+  height: 70px;
+}
+
+/* line 36, ../sass/partials/_FDT.scss */
+.fdt-form-box {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding-top: 3%;
+  padding-left: 18%;
+  padding-right: 14%;
+  padding-bottom: 5%;
+  margin: none;
+}
+
+/* line 48, ../sass/partials/_FDT.scss */
+.bg-img-mom {
+  background-image: url(/IMG/FDT/Royal-Life-Centers-Free-Drug-Testing-Kit.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2%;
+}
+
+/* line 56, ../sass/partials/_FDT.scss */
+.bg-img-mom-mobile {
+  background-image: url(/IMG/FDT/mobile-color.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2%;
+}
+
+/* line 64, ../sass/partials/_FDT.scss */
+.fdt-button {
+  margin-left: 21%;
+  background-color: #294f79;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 2%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+}
+
+/* line 75, ../sass/partials/_FDT.scss */
+.fdt-button:hover,
+.fdt-button:focus,
+.fdt-button:active,
+.fdt-button:visited {
+  background-color: #142230;
+  color: white;
+  outline: none;
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+/* line 86, ../sass/partials/_FDT.scss */
+.fdt-button-modal {
+  margin-left: 9%;
+  background-color: #294f79;
+  color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+/* line 97, ../sass/partials/_FDT.scss */
+.fdt-button-modal:focus,
+.fdt-button-modal:active,
+.fdt-button-modal:visited,
+.fdt-button-modal:hover {
+  background-color: #142230;
+  color: white;
+  outline: none;
+  /*    transition: 0.4s;
+      transform: scale(1.1);*/
+}
+
+/* line 108, ../sass/partials/_FDT.scss */
+.info-block-clear-FDT {
+  background-color: rgba(255, 255, 255, 0.58);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding-top: 1%;
+  padding-bottom: 5%;
+  margin-right: 10%;
+}
+
+/* line 118, ../sass/partials/_FDT.scss */
+.white-fdt {
+  font-family: "Quattrocento", serif;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 5%;
+}
+
+/* line 127, ../sass/partials/_FDT.scss */
+.info-text-white-fdt {
+  font-family: "Quattrocento", serif;
+  color: white;
+  font-size: 17px;
+  text-shadow: 14px 4px 19px black;
+}
+
+/* line 136, ../sass/partials/_FDT.scss */
+.modalButton-FDT {
+  background-color: #2d5078;
+  color: white;
+  padding: 4%;
+  margin-bottom: 5%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  width: 100%;
+}
+
+/* line 148, ../sass/partials/_FDT.scss */
+.modalButton-FDT:hover,
+.modalButton-FDT:focus,
+.modalButton-FDT:visited {
+  background-color: #192a3b;
+  color: white;
+  outline: none;
+}
+
+/* line 156, ../sass/partials/_FDT.scss */
+.info-list-FDT {
+  text-align: left;
+  list-style: none;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 765px) {
+  /* line 164, ../sass/partials/_FDT.scss */
+  .mobile-title {
+    margin-left: 10%;
+    margin-top: 55%;
+    color: white;
+    font-family: 'Quattrocento', serif;
+  }
+
+  /* line 173, ../sass/partials/_FDT.scss */
+  .form-contact {
+    padding-top: 28%;
+  }
+
+  /* line 177, ../sass/partials/_FDT.scss */
+  #CTA2Box-FDT {
+    height: 450px;
+    background-image: url(/IMG/FDT/Royal-Life-Centers-Free-12-Panel-Drug-Testing-Kit-Mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    display: block;
+  }
+}
+/*Most Important:*/
+/*Header Text*/
+/*Headers*/
+/* line 4, ../sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quattrocento", serif;
+}
+
+/* line 8, ../sass/partials/_base.scss */
+p {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 17px;
+}
+
+/* line 13, ../sass/partials/_base.scss */
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  /*Prevents annoying extra white space on smaller screens*/
+}
+
+/* line 19, ../sass/partials/_base.scss */
+.white {
+  color: white;
+}
+
+/* line 23, ../sass/partials/_base.scss */
+.center {
+  text-align: center;
+}
+
+/* line 27, ../sass/partials/_base.scss */
+.shadow {
+  text-shadow: 2px 2px 5px black;
+}
+
+/* line 33, ../sass/partials/_base.scss */
+.shadow-2 {
+  text-shadow: 1px 1px 1px rgba(47, 79, 79, 0);
+}
+
+/* line 39, ../sass/partials/_base.scss */
+.copy-darkNavy {
+  color: #192a3b;
+}
+
+/*Header/Navigation*/
+/* line 45, ../sass/partials/_base.scss */
+.header-block {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+  background-color: #192a3b;
+  margin: 0;
+}
+
+/* line 56, ../sass/partials/_base.scss */
+#nav-title {
+  color: #192a3b;
+  font-family: "Quattrocento", serif;
+  margin-top: 4%;
+}
+
+/* line 62, ../sass/partials/_base.scss */
+.nav-title {
+  display: block !important;
+}
+
+/* line 66, ../sass/partials/_base.scss */
+.head-phone {
+  color: white;
+}
+
+/* line 70, ../sass/partials/_base.scss */
+.header-copy {
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  /*margin-right: 33%;
+  margin-left: 10%;*/
+  text-align: center;
+  float: right;
+}
+
+/* line 81, ../sass/partials/_base.scss */
+.head-phone:focus,
+.head-phone:active,
+.head-phone:hover,
+.head-phone:visited {
+  color: white;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+/*Branding*/
+/* line 92, ../sass/partials/_base.scss */
+.acq-brand {
+  height: 60px;
+  padding-bottom: 15px;
+  margin-top: 4px;
+  margin-right: 100px;
+  margin-bottom: inherit;
+  transition: 0.8s;
+  margin-left: 100px;
+}
+
+/* line 102, ../sass/partials/_base.scss */
+.acq-brand-bridges {
+  height: 100px;
+  padding-top: 0px;
+  padding-bottom: none;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  transition: 0.8s;
+  /*margin-left: 10px;*/
+  /*box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.45); */
+  border-bottom-right-radius: 5px;
+}
+
+/* line 118, ../sass/partials/_base.scss */
+.royal-logo {
+  height: 100px;
+  padding-top: 0px;
+  padding-bottom: none;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  transition: 0.8s;
+  border-bottom-right-radius: 5px;
+}
+
+/* line 130, ../sass/partials/_base.scss */
+.royal-logo-scroll {
+  height: 38px;
+  margin-right: 100px;
+  transition: 0.8s;
+  border-bottom-right-radius: 5px;
+}
+
+/* line 138, ../sass/partials/_base.scss */
+.nav-custom-scroll {
+  transition: 0.8s;
+  display: none !important;
+}
+
+/* line 143, ../sass/partials/_base.scss */
+.acq-brand-haven {
+  height: 60px;
+  padding-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* line 151, ../sass/partials/_base.scss */
+.itemX {
+  padding-top: 3%;
+  height: 80px;
+  width: 198px;
+  color: #192a3b;
+  background-color: white;
+  margin-bottom: none;
+}
+
+/* line 162, ../sass/partials/_base.scss */
+.row-block {
+  z-index: 1;
+}
+
+/* line 167, ../sass/partials/_base.scss */
+.acq-custom {
+  background-color: rgba(251, 251, 251, 0);
+  border: none;
+  border-style: none;
+  margin-left: 10px;
+  margin-top: 8px;
+  transition: 1.8s;
+  height: 60px;
+  width: 200;
+}
+
+/* line 179, ../sass/partials/_base.scss */
+.acq-brand-nav {
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+}
+
+/* line 186, ../sass/partials/_base.scss */
+.land-nav-title {
+  margin-bottom: 10%;
+  padding-top: 1%;
+  padding-left: 15%;
+  text-align: center;
+  margin-right: 15%;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+/* line 197, ../sass/partials/_base.scss */
+.rlc-brand {
+  height: 38px;
+  width: 33px;
+  float: left;
+  margin: 12px;
+  padding: 0;
+}
+
+/* line 205, ../sass/partials/_base.scss */
+.CTA-1 {
+  font-size: 18px;
+  text-align: center;
+  color: ghostwhite;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/*Menu + Dropdown*/
+/* line 218, ../sass/partials/_base.scss */
+.dropdown-menu {
+  margin-top: 30px !important;
+}
+
+/* line 223, ../sass/partials/_base.scss */
+.item-drop {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 234, ../sass/partials/_base.scss */
+.item-link {
+  color: white;
+  background-color: #192a3b;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 241, ../sass/partials/_base.scss */
+.item-link:hover {
+  color: white;
+  background-color: #192a3b;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 247, ../sass/partials/_base.scss */
+#dropdownMenu1:focus,
+#dropdownMenu1 {
+  background-color: #192a3b;
+}
+
+/* line 253, ../sass/partials/_base.scss */
+.itemR {
+  font-size: 18px;
+  text-align: right;
+  color: #27241d;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 264, ../sass/partials/_base.scss */
+.leftNav {
+  margin-left: 0px;
+}
+
+/* line 268, ../sass/partials/_base.scss */
+.navbar-right li a:hover,
+.navbar-right li a:active,
+.navbar-right li a:visited {
+  color: #c3a12c;
+  text-decoration-line: none;
+}
+
+/* line 276, ../sass/partials/_base.scss */
+.navbar-default {
+  border: none;
+}
+
+/* line 283, ../sass/partials/_base.scss */
+#RLC-nav {
+  border: none;
+  width: inherit;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
+  padding-left: 10%;
+  background-color: #192a3b;
+}
+
+/* line 294, ../sass/partials/_base.scss */
+#nav-section {
+  background-color: #192a3b;
+  border: none;
+  margin-top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+/*Modals*/
+/*Head Modal*/
+/* line 306, ../sass/partials/_base.scss */
+.headModal {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  margin-left: 12px;
+}
+
+/* line 312, ../sass/partials/_base.scss */
+.modalMessage {
+  font-size: 16px;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+/* line 318, ../sass/partials/_base.scss */
+.bottomModal {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+/* line 324, ../sass/partials/_base.scss */
+.modalButton {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  background-color: #244e79;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 1%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* line 336, ../sass/partials/_base.scss */
+.modalButton:focus {
+  color: white;
+  border: none;
+  outline: none;
+}
+
+/* line 341, ../sass/partials/_base.scss */
+.modalButton:active,
+.modalButton:visited,
+.modalButton:hover {
+  color: white;
+  background-color: #163553;
+  transition: 0.5s;
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+/* line 352, ../sass/partials/_base.scss */
+.modalButton-2 {
+  margin-left: 50px;
+  background-color: #244e79;
+  color: white;
+  outline: none;
+}
+
+/* line 359, ../sass/partials/_base.scss */
+.modalButton-2:hover {
+  color: white;
+  background-color: #163553;
+  outline: none;
+}
+
+/*Head Branding*/
+/* line 365, ../sass/partials/_base.scss */
+.head-branding {
+  font-size: 12px;
+  color: black;
+}
+
+/* line 371, ../sass/partials/_base.scss */
+#head {
+  height: 20%;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 15px;
+  background-color: #FBFBFB;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 381, ../sass/partials/_base.scss */
+.rlc-brand-img {
+  margin-top: 7px;
+  height: 30px;
+  float: right;
+  /* margin-bottom: px;*/
+}
+
+/* line 388, ../sass/partials/_base.scss */
+.rlc-brand-img-mobile {
+  height: 30px;
+  margin-top: 15px;
+  float: right;
+  padding-left: 50px;
+  margin-left: 60px;
+}
+
+/* line 397, ../sass/partials/_base.scss */
+.head-section {
+  background-color: #FBFBFB;
+  padding-top: 10px;
+}
+
+/* line 402, ../sass/partials/_base.scss */
+.moto {
+  margin-top: 25px;
+  margin-left: 80px;
+  font-size: 17px;
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 411, ../sass/partials/_base.scss */
+.head-info {
+  font-size: 14px;
+  padding-top: 3%;
+  margin-top: 20px;
+  margin-right: 8px;
+  color: #192a3b;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/*Navbar*/
+/* line 426, ../sass/partials/_base.scss */
+.rlc-custom {
+  margin-left: 0%;
+}
+
+/* line 430, ../sass/partials/_base.scss */
+.rlc-nav {
+  list-style: none;
+  display: inline-block;
+  display: inline-flex;
+  margin: auto;
+}
+
+/* line 437, ../sass/partials/_base.scss */
+.rlc-nav li {
+  margin: 10px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 442, ../sass/partials/_base.scss */
+.item {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 453, ../sass/partials/_base.scss */
+.itemText {
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 461, ../sass/partials/_base.scss */
+.itemTextNone {
+  font-size: 18px;
+  text-align: left;
+  color: #192a3b;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 469, ../sass/partials/_base.scss */
+.itemText:hover {
+  color: goldenrod;
+}
+
+/* line 475, ../sass/partials/_base.scss */
+.navbar-nav.ul a {
+  color: white;
+}
+
+/*Hero sections*/
+/*Top Graphic*/
+/*Breadcrumbs*/
+/* line 487, ../sass/partials/_base.scss */
+.bc-block {
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  margin-top: 1%;
+}
+
+/* line 493, ../sass/partials/_base.scss */
+.bc {
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.8s;
+}
+
+/*CTA Buttons*/
+/* line 501, ../sass/partials/_base.scss */
+.btn-cta-top {
+  height: 60px;
+  width: 250px;
+  font-size: 15px;
+  background-color: #d3ab23;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* line 515, ../sass/partials/_base.scss */
+.btn-cta-top:hover {
+  height: 60px;
+  width: 200px;
+  font-size: 15px;
+  background-color: #d3ab23;
+  color: white;
+  border: none;
+  transition: 0.8s;
+  transform: scale(1.1);
+  outline: none;
+}
+
+/* line 528, ../sass/partials/_base.scss */
+.btn-cta-top:active,
+.btn-cta-top:visited {
+  height: 60px;
+  width: 200px;
+  font-size: 15px;
+  background-color: #8d721a;
+  color: #e0d5d5;
+}
+
+/*Body Backgrounds*/
+/* line 2, ../sass/partials/_bg.scss */
+.bg {
+  padding: 3%;
+}
+
+/* line 6, ../sass/partials/_bg.scss */
+.bg-sub {
+  background-color: #f3f3f3;
+  padding-bottom: 20%;
+}
+
+/* line 11, ../sass/partials/_bg.scss */
+.bg-gray-pattern {
+  background-image: url(/IMG/bg-Gray-2-untouched.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3%;
+}
+
+/* line 20, ../sass/partials/_bg.scss */
+.bg-gray {
+  background-color: #fafafa;
+  padding: 2%;
+}
+
+/* line 25, ../sass/partials/_bg.scss */
+.bg-darkSlateBlue {
+  background-color: #62809d;
+  padding: 2%;
+}
+
+/* line 30, ../sass/partials/_bg.scss */
+.bg-gold {
+  background-color: #a2831e;
+  padding: 2%;
+}
+
+/* line 35, ../sass/partials/_bg.scss */
+.bg-darkBlue {
+  background-color: #244e79;
+  padding: 2%;
+}
+
+/* line 40, ../sass/partials/_bg.scss */
+.bg-darkNavy {
+  background-color: #0c1c2c;
+  padding: 2%;
+}
+
+/* line 47, ../sass/partials/_bg.scss */
+.bg-img-1 {
+  background-image: url(/IMG/Stock/B/puget-sound-recovery-inpatient-addiction-treatment-Woman-Walking-B.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2%;
+}
+
+/* line 55, ../sass/partials/_bg.scss */
+.bg-img-1-fixed {
+  background-image: url();
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2%;
+}
+
+/* line 64, ../sass/partials/_bg.scss */
+.bg-img-2 {
+  background-image: url(/IMG/Stock/B/Modal-Session-Hands-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 2%;
+}
+
+/* line 74, ../sass/partials/_bg.scss */
+.bg-img-3 {
+  background-image: url(/IMG/Stock/A/Freedom-6-BG.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 2%;
+}
+
+/* line 85, ../sass/partials/_bg.scss */
+.bg-img-4 {
+  background-image: url(/IMG/Stock/A/Spokane-Heights-Detox-Woman-Walking.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+  padding: 5%;
+}
+
+/* line 96, ../sass/partials/_bg.scss */
+.bg-img-5 {
+  background-image: url(/IMG/Stock/A/spokane-heights-detox-Session-Hands-A.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3%;
+}
+
+/* line 105, ../sass/partials/_bg.scss */
+.bg-img-6 {
+  background-image: url(/IMG/Stock/A/Spokane-Heights-Detox-Woman-Smiling-2-A-BG.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6%;
+}
+
+/* line 116, ../sass/partials/_bg.scss */
+.bg-img-7 {
+  background-image: url("/IMG/Stock/A/Palm_Trees-A-BGEdit.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 125, ../sass/partials/_bg.scss */
+.bg-img-7-fixed {
+  background-image: url("/IMG/Stock/A/Palm_Trees-A-BGEdit.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 134, ../sass/partials/_bg.scss */
+.bg-img-8 {
+  background-image: url(/IMG/Stock/A/Session-Hands-2-A.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 143, ../sass/partials/_bg.scss */
+.bg-img-9 {
+  background-image: url(/IMG/Stock/A/Session-Hands-2-A-BG-Edit.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 152, ../sass/partials/_bg.scss */
+.bg-img-10 {
+  background-image: url(/IMG/Stock/A/Royal-Life-Centers-Young-Man-Thinking.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 161, ../sass/partials/_bg.scss */
+.bg-img-food {
+  background-image: url(/IMG/Stock/B/nutritious-meal-B-edit.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 170, ../sass/partials/_bg.scss */
+.bg-img-11 {
+  background-image: url(/IMG/Stock/A/Freedom-Beach-BG.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/* line 179, ../sass/partials/_bg.scss */
+.bg-img-11-fixed {
+  background-image: url(/IMG/Stock/A/Freedom-Beach-BG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3%;
+}
+
+/*Images*/
+/* line 3, ../sass/partials/_split.scss */
+.copy-img {
+  width: 95%;
+  border: 2px;
+  border-radius: 5px;
+  margin-top: 8%;
+  margin-left: 5%;
+  box-shadow: 0px 0px 10px white;
+}
+
+/* line 12, ../sass/partials/_split.scss */
+.copy-img-program {
+  width: 95%;
+  border: 2px;
+  border-radius: 3px;
+  margin-top: 22%;
+}
+
+/*Copy + Img*/
+/* line 20, ../sass/partials/_split.scss */
+.copy-block-lightBlue {
+  width: 50%;
+  height: 350px;
+  background-color: #9cb6d0;
+  padding: 2%;
+}
+
+/* line 27, ../sass/partials/_split.scss */
+.copy-block-gray {
+  width: 50%;
+  height: 350px;
+  background-color: #fafafa;
+  padding: 2%;
+}
+
+/* line 34, ../sass/partials/_split.scss */
+.copy-block-gray-pattern {
+  background-image: url(/IMG/bg-Gray-2-untouched.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2%;
+}
+
+/* line 42, ../sass/partials/_split.scss */
+.copy-block-blue {
+  width: 50%;
+  height: 350px;
+  background-color: #294f79;
+  padding: 2%;
+}
+
+/* line 49, ../sass/partials/_split.scss */
+.copy-block-darkNavy {
+  width: 50%;
+  height: 350px;
+  background-color: #101c27;
+  padding: 2%;
+}
+
+/* line 56, ../sass/partials/_split.scss */
+.img-extend, .img-block, .img-block-2, .img-block-3, .img-block-4, .img-block-5, .img-block-6, .img-block-7, .img-block-8, .img-block-9, .img-block-10, .img-block-11, .img-block-12, .img-block-13, .img-block-14 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+/* line 63, ../sass/partials/_split.scss */
+.img-block {
+  background-image: url(/IMG/Stock/A/royal-life-centers-Session-Hands-A.jpg);
+}
+
+/* line 68, ../sass/partials/_split.scss */
+.img-block-2 {
+  background-image: url(/IMG/Stock/A/Detox-From-Heroin-Helping-Hands-2-A.jpg);
+}
+
+/* line 73, ../sass/partials/_split.scss */
+.img-block-3 {
+  background-image: url(/IMG/Stock/A/Royal-Life-Centers-More-Than-Detox.jpg);
+}
+
+/* line 78, ../sass/partials/_split.scss */
+.img-block-4 {
+  background-image: url(/IMG/Stock/A/Admissions-1-A.jpg);
+}
+
+/* line 83, ../sass/partials/_split.scss */
+.img-block-5 {
+  background-image: url(/IMG/Stock/A/Stress-2-A.jpg);
+}
+
+/* line 88, ../sass/partials/_split.scss */
+.img-block-6 {
+  background-image: url(/IMG/Stock/A/royal-life-centers-concerned-parent-A.jpg);
+  z-index: 1;
+}
+
+/* line 94, ../sass/partials/_split.scss */
+.img-block-7 {
+  background-image: url(/IMG/Stock/A/Loneliness-2-A.jpg);
+}
+
+/* line 99, ../sass/partials/_split.scss */
+.img-block-8 {
+  background-image: url(/IMG/Stock/A/Health-Consequences-A.jpg);
+}
+
+/* line 104, ../sass/partials/_split.scss */
+.img-block-9 {
+  background-image: url(/IMG/Stock/A/MomAndDaughter-2-A.jpg);
+}
+
+/* line 109, ../sass/partials/_split.scss */
+.img-block-10 {
+  background-image: url(/IMG/Stock/B/Session-Hands-Modal.png);
+}
+
+/* line 114, ../sass/partials/_split.scss */
+.img-block-11 {
+  background-image: url(/IMG/Stock/A/Loneliness-2-A.jpg);
+}
+
+/* line 119, ../sass/partials/_split.scss */
+.img-block-12 {
+  background-image: url(/IMG/Stock/A/Stress-A.jpg);
+}
+
+/* line 124, ../sass/partials/_split.scss */
+.img-block-13 {
+  background-image: url(/IMG/Stock/A/Happy-Couple-1-A.jpg);
+}
+
+/* line 129, ../sass/partials/_split.scss */
+.img-block-14 {
+  background-image: url(/IMG/Stock/A/Happy-Couple-2-A.jpg);
+}
+
+/*Responsive*/
+@media only screen and (max-width: 990px) {
+  /* line 137, ../sass/partials/_split.scss */
+  .img-block,
+  .img-block-2,
+  .img-block-3,
+  .img-block-4,
+  .img-block-5,
+  .img-block-6,
+  .img-block-7,
+  .img-block-8,
+  .img-block-9,
+  .img-block-10,
+  .img-block-11,
+  .img-block-12,
+  .img-block-13,
+  .img-block-14 {
+    width: 100%;
+    height: 250px;
+  }
+}
+/*Panel*/
+/* line 159, ../sass/partials/_split.scss */
+.split {
+  margin-top: 10%;
+}
+
+/* line 163, ../sass/partials/_split.scss */
+.block-panel-right {
+  z-index: 2;
+  background-color: white;
+  /*#294f78;*/
+  /*#e3f1ff;*/
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding: 5%;
+  margin-top: -15%;
+  margin-left: -15%;
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+/* line 177, ../sass/partials/_split.scss */
+.block-panel-left {
+  z-index: 2;
+  background-color: white;
+  /*#294f78;*/
+  /*#e3f1ff;*/
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding: 5%;
+  margin-top: -15%;
+  margin-left: -45%;
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 990px) {
+  /* line 193, ../sass/partials/_split.scss */
+  .block-panel-right {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  /* line 198, ../sass/partials/_split.scss */
+  .block-panel-left {
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+}
+/*Body Componants*/
+/* line 542, ../sass/partials/_base.scss */
+.info-block {
+  background-color: rgba(255, 255, 255, 0.42);
+  border-radius: 3px;
+}
+
+/* line 547, ../sass/partials/_base.scss */
+.info-block-2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #244e79;
+}
+
+/* line 553, ../sass/partials/_base.scss */
+.info-block-clear {
+  background-color: rgba(255, 255, 255, 0.74);
+  /*
+      border-radius: 3px;
+  */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding-top: 1%;
+  margin: 0;
+  padding: 2%;
+}
+
+/* line 565, ../sass/partials/_base.scss */
+.inner-center-block {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/*Body Text*/
+/* line 573, ../sass/partials/_base.scss */
+.info-text-center, .info-text-center-white {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #262c31;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* line 584, ../sass/partials/_base.scss */
+.info-text-center-white {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: white;
+}
+
+/* line 592, ../sass/partials/_base.scss */
+.info-text {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #262c31;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+/* line 600, ../sass/partials/_base.scss */
+.info-text-lg {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #262c31;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+/* line 609, ../sass/partials/_base.scss */
+.info-text-white {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+/* line 617, ../sass/partials/_base.scss */
+.info-grx {
+  color: #408fe0;
+  margin-top: 60px;
+  margin-left: 40px;
+  width: 100%;
+}
+
+/* line 624, ../sass/partials/_base.scss */
+.info-grx-2 {
+  color: lightpink;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 100%;
+}
+
+/* line 631, ../sass/partials/_base.scss */
+.info-textL {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #262c31;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+/* line 639, ../sass/partials/_base.scss */
+.info-textR {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #262c31;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 60px;
+  float: right;
+}
+
+/* line 648, ../sass/partials/_base.scss */
+.info-text-white {
+  color: white;
+}
+
+/* line 652, ../sass/partials/_base.scss */
+.info-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* line 657, ../sass/partials/_base.scss */
+.info-list-white {
+  color: white;
+}
+
+/* line 661, ../sass/partials/_base.scss */
+.info-list-li-white {
+  color: white;
+  font-size: 18px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 667, ../sass/partials/_base.scss */
+.info-list-li {
+  color: black;
+  font-size: 18px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/*Info Cont'd*/
+/* line 676, ../sass/partials/_base.scss */
+#info-contd {
+  background-color: #FBFBFB;
+  bottom: 0;
+}
+
+/* line 681, ../sass/partials/_base.scss */
+.copy-block {
+  margin-top: 20px;
+  margin-bottom: 1%;
+}
+
+/* line 687, ../sass/partials/_base.scss */
+.block-1 {
+  background-color: #62809d;
+  padding: 0.001%;
+}
+
+/* line 693, ../sass/partials/_base.scss */
+.btm-CTA {
+  text-align: center;
+  color: ghostwhite;
+  font-size: 25px;
+}
+
+/*Font-Awesome mods*/
+/*Forms*/
+/*Foundation Form*/
+/* line 707, ../sass/partials/_base.scss */
+.foundation-cta-form {
+  z-index: 2;
+  background-color: white;
+  /*#294f78;*/
+  /*#e3f1ff;*/
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding-top: 2%;
+  margin-top: -9%;
+  margin-left: 8%;
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+/*CTA Form */
+/* line 722, ../sass/partials/_base.scss */
+.cta-form-button {
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 16px;
+  margin-left: 9%;
+  margin-top: 10%;
+  background-color: #93acc5;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  border: none;
+  margin: none;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+/* line 738, ../sass/partials/_base.scss */
+.cta-form-button:active,
+.cta-form-button:visited,
+.cta-form-button:focus {
+  outline: none;
+  border: none;
+  color: white;
+}
+
+/* line 746, ../sass/partials/_base.scss */
+.cta-form-button:hover {
+  background-color: #294f79;
+  color: white;
+  outline: none;
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+/* line 754, ../sass/partials/_base.scss */
+.fdtn-button-modal {
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 20px;
+  margin-left: 9%;
+  background-color: #294f79;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 4%;
+}
+
+/* line 767, ../sass/partials/_base.scss */
+.fdtn-button-modal:active,
+.fdtn-button-modal:visited,
+.fdtn-button-modal:focus {
+  outline: none;
+  border: none;
+  color: white;
+}
+
+/* line 775, ../sass/partials/_base.scss */
+.fdtn-button-modal:hover {
+  background-color: #142230;
+  color: white;
+  outline: none;
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+/* line 783, ../sass/partials/_base.scss */
+.antispam {
+  display: none;
+}
+
+/*Get Help Now Form (Navigation and CTA)*/
+/* line 789, ../sass/partials/_base.scss */
+#GHN {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 0px;
+  background-color: rgba(250, 250, 250, 0.28);
+  border-radius: 10px;
+}
+
+/* line 797, ../sass/partials/_base.scss */
+.ghn-head {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* line 801, ../sass/partials/_base.scss */
+.close {
+  height: 20px;
+  color: black;
+}
+
+/* line 806, ../sass/partials/_base.scss */
+.modalMessage {
+  font-size: 16px;
+  text-align: justify;
+  margin-left: 10%;
+  font-family: 'Quattrocento Sans', serif;
+}
+
+/* line 813, ../sass/partials/_base.scss */
+.modalButton {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  background-color: #244e79;
+  color: white;
+}
+
+/* line 820, ../sass/partials/_base.scss */
+.modalButton:hover {
+  color: white;
+  background-color: #163553;
+}
+
+/* line 826, ../sass/partials/_base.scss */
+.modalButton-2 {
+  margin-left: 50px;
+  background-color: #244e79;
+  color: white;
+}
+
+/* line 832, ../sass/partials/_base.scss */
+.modalButton-2:hover,
+.modalButton-2:focus {
+  color: white;
+  background-color: #163553;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  outline: none;
+}
+
+/* line 841, ../sass/partials/_base.scss */
+.submitContact {
+  align-content: center;
+  background-color: #294f79;
+  color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 3%;
+  margin-top: 3%;
+  margin-left: 40%;
+}
+
+/* line 855, ../sass/partials/_base.scss */
+.submitContact:focus,
+.submitContact:active,
+.submitContact:visited,
+.submitContact:hover {
+  background-color: #142230;
+  color: white;
+  outline: none;
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+/*Form Adm*/
+/* line 867, ../sass/partials/_base.scss */
+.admSubmit {
+  background-color: #142230;
+  border-radius: 5px;
+  padding: 2%;
+  color: white;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+}
+
+/* line 877, ../sass/partials/_base.scss */
+.admSubmit:hover,
+.admSubmit:focus {
+  background-color: #294f78;
+  color: white;
+  transition: 0.8s;
+  transform: scale(1.1);
+}
+
+/* line 887, ../sass/partials/_base.scss */
+.modalBG {
+  background-image: url(/IMG/Stock/B/Modal-Session-Hands-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 10px;
+}
+
+/* line 895, ../sass/partials/_base.scss */
+.modal-bg-darkNavy {
+  background-color: #142230;
+}
+
+/* line 899, ../sass/partials/_base.scss */
+.callBackBG {
+  background-image: url(/IMG/Stock/B/Modal-Session-Hands-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 906, ../sass/partials/_base.scss */
+.helpForm {
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #FBFBFB;
+}
+
+/* line 912, ../sass/partials/_base.scss */
+.control-label {
+  color: black;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+}
+
+/* line 923, ../sass/partials/_base.scss */
+.input-custom {
+  margin-left: 70px;
+}
+
+/* line 927, ../sass/partials/_base.scss */
+.form-cont {
+  margin-top: 200px;
+  padding: 10%;
+  padding-bottom: 180px;
+  background-color: rgba(255, 255, 255, 0);
+  float: none;
+}
+
+/* line 935, ../sass/partials/_base.scss */
+.subMessage {
+  color: black;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 20px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+/* line 943, ../sass/partials/_base.scss */
+.formBox {
+  padding: 50px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* line 950, ../sass/partials/_base.scss */
+.formInput {
+  color: #1a0f07;
+}
+
+/* line 955, ../sass/partials/_base.scss */
+.invalid {
+  color: red;
+  display: inline !important;
+  margin-top: 3px;
+  padding-top: 5px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 963, ../sass/partials/_base.scss */
+#NetworkProvider {
+  margin-bottom: 150px;
+}
+
+/*Dr. Phil*/
+/* line 967, ../sass/partials/_base.scss */
+.img-block-phil {
+  background-color: rgba(255, 255, 255, 0.42);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  padding: 1%;
+}
+
+/* line 974, ../sass/partials/_base.scss */
+.dr-phil-img {
+  display: inline !important;
+  margin-top: 20px;
+  margin-bottom: -80px;
+  margin-right: 20px;
+  float: right;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+}
+
+/*RLC Custom Carousel*/
+/* line 3, ../sass/partials/_RLC-Carousel.scss */
+.carousel-inner {
+  background-color: black;
+}
+
+/*Footer*/
+/* line 989, ../sass/partials/_base.scss */
+.footer-strip {
+  height: 10px;
+  background-color: #192a3b;
+  width: 100%;
+}
+
+/* line 995, ../sass/partials/_base.scss */
+.soc-med {
+  color: #244e79;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* line 1001, ../sass/partials/_base.scss */
+.accr {
+  max-width: 246px;
+  max-height: 100px;
+  padding-top: 2%;
+}
+
+/* line 1007, ../sass/partials/_base.scss */
+.soc-med:hover {
+  color: #3875b4;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* line 1013, ../sass/partials/_base.scss */
+.soc-med-list {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+/* line 1019, ../sass/partials/_base.scss */
+.brand-list {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 1025, ../sass/partials/_base.scss */
+.footer-img {
+  height: 38px;
+  width: 33px;
+  margin: 8px;
+  margin-top: 10px;
+  padding: 0;
+  float: right;
+}
+
+/* line 1034, ../sass/partials/_base.scss */
+.footer {
+  background-color: #f1faff;
+  margin: auto;
+  text-align: center;
+  color: black;
+  bottom: 0;
+  width: 100%;
+  margin-top: 25px;
+  position: inherit;
+  height: 40%;
+}
+
+/* line 1047, ../sass/partials/_base.scss */
+.footer-branding {
+  font-size: 12px;
+  color: black;
+  margin-top: 35px;
+  float: right;
+}
+
+/* line 1055, ../sass/partials/_base.scss */
+.foot {
+  margin: auto;
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+/* line 1063, ../sass/partials/_base.scss */
+.foot-dN {
+  margin: auto;
+  text-align: center;
+  color: #192a3b;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* line 1071, ../sass/partials/_base.scss */
+.footBox {
+  padding: 1%;
+}
+
+/* line 1077, ../sass/partials/_base.scss */
+.footlink {
+  color: #27241d;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/* line 1082, ../sass/partials/_base.scss */
+.footlink:hover,
+.footlink:active {
+  text-decoration-line: none;
+  color: #d3ab23;
+}
+
+/*Small and Extra Small Screens*/
+@media only screen and (max-width: 680px) {
+  /* line 1091, ../sass/partials/_base.scss */
+  .footer-branding {
+    font-size: 12px;
+    color: black;
+    margin-top: 35px;
+    text-align: left;
+  }
+
+  /* line 1098, ../sass/partials/_base.scss */
+  .footer-img {
+    height: 38px;
+    width: 33px;
+    margin-top: 10px;
+    margin-left: 25px;
+    float: right;
+  }
+}
+/*Large Screens*/
+@media only screen and (min-width: 1200px) {
+  /* line 1110, ../sass/partials/_base.scss */
+  .foot-img {
+    float: right;
+  }
+}
+/*Insurance CSS*/
+/* line 3, ../sass/partials/_ins.scss */
+.ins {
+  max-height: 50px;
+  padding-bottom: 0px;
+}
+
+/* line 8, ../sass/partials/_ins.scss */
+.block-img {
+  max-width: 900px;
+}
+
+/* line 12, ../sass/partials/_ins.scss */
+.block-img-b {
+  max-width: 450px;
+  /*float: right;*/
+  /*   margin-right: 10%;
+     margin-left: 10%;*/
+}
+
+/* line 19, ../sass/partials/_ins.scss */
+.ins-section-block {
+  padding-left: 13%;
+  padding-right: 15%;
+}
+
+/* line 24, ../sass/partials/_ins.scss */
+.ins-section-block-b {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+@media only screen and (max-width: 350px) {
+  /* line 31, ../sass/partials/_ins.scss */
+  .ins {
+    max-height: 50px;
+    max-width: 10px;
+    padding-bottom: 0px;
+  }
+
+  /* line 37, ../sass/partials/_ins.scss */
+  .ins-block {
+    widows: 135px;
+    padding-left: 12%;
+  }
+}
